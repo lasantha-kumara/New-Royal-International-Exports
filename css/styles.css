@@ -1,15 +1,17 @@
 body {
-    background-color: #F2F013;
+    background-color: #2FDD92;
 }
 
  /* Nav bar */
 
  #navigation-bar {
+     margin: 0;
     padding: 2em 5em;
  }
 
- .navbar-text {
+ .navbar-heading {
      font-size: 2rem;
+     color: #54436B;
  }
 
  .navbar {
@@ -22,4 +24,28 @@ body {
 
  .nav-link {
     font-size: 1.4rem;
+ }
+
+ /* Title */
+
+ #title {
+     margin: 0;
+     padding: 2em 5em;
+     background-color: #ACFFAD;
+ }
+
+ .title-image {
+     margin: 1em 0;
+ }
+
+ .title-text {
+     margin-top: 2em;
+ }
+
+ .title-heading {
+     font-size: 2.5rem;
+ }
+
+ .title-info {
+     font-size: 1.2rem;
  }
