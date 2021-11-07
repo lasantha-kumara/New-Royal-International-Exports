@@ -1,51 +1,112 @@
-body {
-    background-color: #2FDD92;
+/* Nav bar */
+
+#navigation-bar {
+    margin: 0;
+    padding: 2em 5em;
+    background-color: #54436B;
 }
 
- /* Nav bar */
+.navbar-heading {
+    font-size: 2rem;
+    color: #54436B;
+}
 
- #navigation-bar {
-     margin: 0;
-    padding: 2em 5em;
- }
+.nav-item {
+    margin-right: 2em;
+}
 
- .navbar-heading {
-     font-size: 2rem;
-     color: #54436B;
- }
-
- .navbar {
-    background-color: #2FDD92;
- }
-
- .nav-item {
-     margin-right: 2em;
- }
-
- .nav-link {
+.nav-link {
     font-size: 1.4rem;
- }
+}
 
- /* Title */
+/* Title */
 
- #title {
-     margin: 0;
-     padding: 2em 5em;
-     background-color: #ACFFAD;
- }
+#title-container {
+    margin: 0;
+    padding: 2em 5em;
+    background-color: #ACFFAD
+}
 
- .title-image {
-     margin: 1em 0;
- }
+.title-image {
+    margin: 1em 0;
+}
 
- .title-text {
-     margin-top: 2em;
- }
+.title-text {
+    margin-top: 2em;
+}
 
- .title-heading {
-     font-size: 2.5rem;
- }
+.title-heading {
+    font-size: 2.5rem;
+}
 
- .title-info {
-     font-size: 1.2rem;
- }
+.title-info {
+    font-size: 1.2rem;
+}
+
+#products-container {
+    margin: 0;
+    padding: 2em 5em;
+    background-color: #ACFFAD
+}
+
+.products-title {
+    font-size: 2rem;
+    padding-bottom: 2em;
+}
+
+#contact-us-container {
+    margin: 0;
+    padding: 2em 5em;
+    background-color: #ACFFAD;
+}
+
+.contact-us-title {
+    font-size: 2rem;
+    padding: 1.5em 0;
+}
+
+.form-control {
+    margin: 1em;
+}
+
+.submit-btn {
+    padding-bottom: 2em;
+}
+
+#bottom-container {
+    margin: 0;
+    padding: 1em 5em;
+    background-color: #50CB93;
+}
+
+h6 {
+    padding: 1em 0;
+}
+
+.bottom-logo-name {
+    font-size: 3rem;
+    top: auto;
+    bottom: auto;
+}
+
+.bottom-link {
+    text-decoration: none;
+}
+
+.bottom-link:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    margin: 0;
+    padding: 1em 5em;
+    background-color: #50CB93;
+}
+
+.credit-link {
+    text-decoration: none; 
+}
+
+.credit-link:hover {
+    text-decoration: underline;
+}
