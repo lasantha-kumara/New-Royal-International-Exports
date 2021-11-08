@@ -22,7 +22,7 @@
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-xl navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand navbar-heading" href="#">NEW ROYAL INTERNATIONAL EXPORTERS</a>                
+                <a class="navbar-brand navbar-heading" href="#">NEW ROYAL INTERNATIONAL EXPORTERS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
+                            <a class="nav-link" href="products.html">Our Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
@@ -48,41 +48,47 @@
         </nav>
     </section>
 
-    <section id="contact-us-container">
-        <form class="needs-validation">
-            <p class="text-center contact-us-title col-lg-6">Need further Information? Contact Us.</p>
-            <div class="row justify-content-start">
-                <div class="col-lg-3 col-md-5 input-group-lg text-center">
-                    <label for="name">Your Name:</label>
-                    <input type="text" class="form-control" id="name" aria-label="Your name" required>
+    <section id="middle-container">
+        <div class="row">
+            <form class="needs-validation col-lg-6 contact-form">
+                <p class="text-center contact-us-title">Need further Information? Contact Us.</p>
+                <div class="row justify-content-start">
+                    <div class="col-lg-6 col-md-5 input-group-lg text-center">
+                        <label for="name">Your Name:</label>
+                        <input type="text" class="form-control" id="name" aria-label="Your name" required>
+                    </div>
+                    <div class="col-lg-6 col-md-5 input-group-lg text-center">
+                        <label for="email">Your Email:</label>
+                        <input type="email" class="form-control" id="email" aria-label="Your Email" required>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-5 input-group-lg text-center">
-                    <label for="email">Your Email:</label>
-                    <input type="email" class="form-control" id="email" aria-label="Your Email" required>
+                <div class="row justify-content-start text-center">
+                    <div class="col-lg-6 col-md-5 input-group-lg text-center">
+                        <label for="">Your Subject:</label>
+                        <input type="text" class="form-control" aria-label="Subject" required>
+                    </div>
+                    <div class="col-lg-6 col-md-5 input-group-lg">
+                        <label for="number">Your Phone Number:</label>
+                        <input type="text" class="form-control" aria-label="phone" required>
+                    </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <label for="textarea">Your Message:</label>
+                        <textarea class="form-control" id="textarea" style="height: 100px" required></textarea>
+                    </div>
+                </div>
+                <div class="row text-center col-lg-12">
+                    <div class="submit-btn">
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <div class="col-lg-6">
+                
             </div>
-            <div class="row justify-content-start text-center">
-                <div class="col-lg-3 col-md-5 input-group-lg text-center">
-                    <label for="">Your Subject:</label>
-                    <input type="text" class="form-control" aria-label="Subject" required>
-                </div>
-                <div class="col-lg-3 col-md-5 input-group-lg">
-                    <label for="number">Your Phone Number:</label>
-                    <input type="text" class="form-control" aria-label="phone" required>
-                </div>
-            </div>
-            <div class="row justify-content-start justify-content-start">
-                <div class="col-lg-6 col-md-6 text-center">
-                    <label for="textarea">Your Message:</label>
-                    <textarea class="form-control" id="textarea" style="height: 100px" required></textarea>
-                </div>
-            </div>
-            <div class="row text-center col-lg-6">
-                <div class="submit-btn">
-                    <button class="btn btn-success" type="submit">Submit</button>
-                </div>
-            </div>
-        </form>
+        </div>
+
     </section>
 
     <section id="bottom-container">
@@ -139,7 +145,7 @@
                 </div>
             </div>
         </div>
-    
+
 
 </body>
 

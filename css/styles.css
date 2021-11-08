@@ -19,11 +19,32 @@
     font-size: 1.4rem;
 }
 
+@media (max-width: 720px) {
+    .navbar-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #navigation-bar {
+        padding: 0;
+    }
+
+    .navbar-heading {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+    }
+
+}
+
 /* Title */
 
 #title-container {
     margin: 0;
-    padding: 2em 5em;
+    padding: 3em 5em;
     background-color: #ACFFAD
 }
 
@@ -39,19 +60,33 @@
     font-size: 2.5rem;
 }
 
+@media (max-width: 720px) {
+    .title-heading {
+        font-size: 1.5rem;
+    }
+}
+
+
+
 .title-info {
     font-size: 1.2rem;
+    padding-bottom: 1em;
 }
 
 #products-container {
     margin: 0;
-    padding: 2em 5em;
-    background-color: #ACFFAD
+    padding: 3em 5em;
+    background-color: #71EFA3;
+}
+
+.products-column {
+    margin-bottom: 6em;
+    padding-left: 1.8em;
 }
 
 .products-title {
     font-size: 2rem;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 #contact-us-container {
@@ -62,7 +97,7 @@
 
 .contact-us-title {
     font-size: 2rem;
-    padding: 1.5em 0;
+    margin: 1.5em 0;
 }
 
 .form-control {
@@ -71,6 +106,7 @@
 
 .submit-btn {
     padding-bottom: 2em;
+    padding-left: 1.5em;
 }
 
 #bottom-container {
@@ -80,13 +116,12 @@
 }
 
 h6 {
-    padding: 1em 0;
+    margin: 1em 0;
 }
 
 .bottom-logo-name {
     font-size: 3rem;
-    top: auto;
-    bottom: auto;
+    margin: 1em 0;
 }
 
 .bottom-link {
@@ -97,6 +132,16 @@ h6 {
     text-decoration: underline;
 }
 
+@media (max-width: 1080px) {
+    #bottom-container {
+        text-align: center;
+    }
+
+    .bottom-logo-name {
+        font-size: 1.8rem;
+    }
+}
+
 #footer {
     margin: 0;
     padding: 1em 5em;
@@ -104,9 +149,45 @@ h6 {
 }
 
 .credit-link {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .credit-link:hover {
     text-decoration: underline;
+}
+
+/* products page */
+
+#products-details-container {
+    margin: 0;
+    padding: 5em 5em;
+    background-color: #ACFFAD;
+}
+
+.products-details {
+    background-color: #71EFA3;
+    margin: 0;
+    padding: 1em 1em;
+}
+
+.products-details-column {
+    padding: 2em 4em;
+}
+
+/* contact-us-page */
+
+#middle-container {
+    /* background-image: url(../Images/pexels-quang-nguyen-vinh-2582652.jpg); */
+    background-attachment: scroll;
+    margin: 0;
+    padding: 2em 5em;
+    background-color: #ACFFAD;
+}
+
+/* .contact-form {
+    color: white;
+} */
+
+.contact-us-image {
+    margin-top: 5em;
 }
