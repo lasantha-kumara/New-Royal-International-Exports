@@ -34,9 +34,8 @@
     }
 
     .nav-link {
-        font-size: 0.8rem;
+        font-size: rem;
     }
-
 }
 
 /* Title */
@@ -61,11 +60,9 @@
 
 @media (max-width: 720px) {
     .title-heading {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
-
-
 
 .title-info {
     font-size: 1.2rem;
@@ -79,7 +76,8 @@
 }
 
 .products-column {
-    margin-bottom: 6em;
+    margin: 0;
+    padding-bottom: 6em;
     padding-left: 1.8em;
 }
 
@@ -170,22 +168,28 @@ h6 {
 }
 
 .products-details-column {
-    padding: 2em 4em;
+    padding: 2em 2em;
+}
+
+@media (max-width: 1080px) {
+    #products-details-container {
+        padding: 2em 2em;
+    }
+}
+
+@media (max-width:480) {
+    #products-details-container {
+        padding: 1em 1em;
+    }
 }
 
 /* contact-us-page */
 
 #middle-container {
-    /* background-image: url(../Images/pexels-quang-nguyen-vinh-2582652.jpg); */
-    background-attachment: scroll;
     margin: 0;
     padding: 2em 5em;
     background-color: #ACFFAD;
 }
-
-/* .contact-form {
-    color: white;
-} */
 
 .contact-us-image {
     margin-top: 5em;
