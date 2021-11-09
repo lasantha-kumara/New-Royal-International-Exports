@@ -78,7 +78,7 @@
 .products-column {
     margin: 0;
     padding-bottom: 6em;
-    padding-left: 1.8em;
+    padding-left: 1em;
 }
 
 .products-title {
@@ -98,12 +98,12 @@
 }
 
 .form-control {
-    margin: 1em;
+    margin: 1em 0;
+    border: 0;
 }
 
 .submit-btn {
     padding-bottom: 2em;
-    padding-left: 1.5em;
 }
 
 #bottom-container {
