@@ -126,12 +126,16 @@ h6 {
     margin: 1em 0;
 }
 
+.copyrights-and-credits {
+    padding-top: 2em;
+}
+
 .bottom-link {
     text-decoration: none;
 }
 
 .bottom-link:hover {
-    text-decoration: underline;
+    color: #ACFFAD;
 }
 
 @media (max-width: 1080px) {
@@ -144,26 +148,36 @@ h6 {
     }
 }
 
-#footer {
+/* about us page */
+
+#about-us-container {
     margin: 0;
-    padding: 1em 5em;
-    background-color: #50CB93;
+    padding: 2em 5em;
+    background-color: #ACFFAD;
 }
 
-.credit-link {
-    text-decoration: none;
-}
-
-.credit-link:hover {
-    text-decoration: underline;
+.about-us-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 1em 0;
+    padding: 1em 0;
+    background-color: #71EFA3;
 }
 
 /* products page */
 
 #products-details-container {
     margin: 0;
-    padding: 5em 5em;
+    padding: 2em 5em;
     background-color: #ACFFAD;
+}
+
+.products-title2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 1em 0;
+    padding: 1em 0;
+    background-color: #71EFA3;
 }
 
 .products-details {
@@ -172,8 +186,17 @@ h6 {
     padding: 1em 1em;
 }
 
+.products-details-title {
+    font-weight: 700;
+    padding: 1em 0;
+}
+
+.product-name {
+    font-weight: 600;
+}
+
 .products-details-column {
-    padding: 2em 2em;
+    padding: 1em 2em;
 }
 
 @media (max-width: 1080px) {
@@ -190,12 +213,59 @@ h6 {
 
 /* contact-us-page */
 
-#middle-container {
+#contact-us-container2 {
     margin: 0;
     padding: 2em 5em;
     background-color: #ACFFAD;
 }
 
-.contact-us-image {
-    margin-top: 5em;
+.contact-us-title2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    background-color: #71EFA3;
+}
+
+.contact-form-and-address {
+    padding: 0 0 2em 0;
+}
+
+.contact-form {
+    padding: 0 4em;
+}
+
+.contact-form-title {
+    font-size: 1.6rem;
+}
+
+.contact-form-title2 {
+    font-size: 1.2rem;
+}
+
+.contact-address {
+    padding: 0 4em;
+}
+
+.contact-address-title {
+    font-size: 1.6rem;
+}
+
+.contact-address-description {
+    font-size: 1.2rem;
+}
+
+.address-title {
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact-number-title {
+    font-weight: 600;
+    margin: 0;
+}
+
+.email-title {
+    font-weight: 600;
+    margin: 0;
 }
