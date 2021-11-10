@@ -269,3 +269,19 @@ h6 {
     font-weight: 600;
     margin: 0;
 }
+
+.contact-number-link {
+    text-decoration: none;
+}
+
+.contact-number-link:hover {
+    color: #50CB93;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #50CB93;
+}
