@@ -227,9 +227,9 @@ h6 {
     background-color: #71EFA3;
 }
 
-.contact-form-and-address {
+/* .contact-form-and-address {
     padding: 0 0 2em 0;
-}
+} */
 
 .contact-form {
     padding: 0 4em;
@@ -284,4 +284,8 @@ h6 {
 
 .email-link:hover {
     color: #50CB93;
+}
+
+.google-map {
+    margin: 1em 0 4em 0;
 }
