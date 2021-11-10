@@ -289,3 +289,10 @@ h6 {
 .google-map {
     margin: 1em 0 4em 0;
 }
+
+@media (max-width: 720px) {
+    .contact-address {
+        text-align: center;
+    }
+
+} 
