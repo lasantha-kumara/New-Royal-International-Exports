@@ -64,9 +64,13 @@
 }
 
 @media (max-width: 720px) {
+    .title-image {
+        display: none;
+    }
     .title-heading {
         font-size: 2rem;
     }
+
 }
 
 .title-info {
@@ -83,7 +87,7 @@
 .products-column {
     margin: 0;
     padding-bottom: 6em;
-    padding-left: 4.8em;
+    padding-left: 2em;
 }
 
 .products-title {
