@@ -1,3 +1,6 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 /* Nav bar */
 
 #navigation-bar {
@@ -7,6 +10,7 @@
 }
 
 .navbar-heading {
+    font-family: 'Merriweather', serif;
     font-size: 2rem;
     color: #54436B;
 }
@@ -126,6 +130,7 @@ h6 {
 }
 
 .bottom-logo-name {
+    font-family: 'Merriweather', serif;
     font-size: 3rem;
     margin: 1em 0;
 }
