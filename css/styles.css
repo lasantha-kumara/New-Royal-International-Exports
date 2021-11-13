@@ -83,7 +83,7 @@
 .products-column {
     margin: 0;
     padding-bottom: 6em;
-    padding-left: 1em;
+    padding-left: 4.8em;
 }
 
 .products-title {
@@ -164,6 +164,10 @@ h6 {
     background-color: #71EFA3;
 }
 
+.company-profile-title {
+    font-size: 1.5rem;
+}
+
 /* products page */
 
 #products-details-container {
@@ -183,7 +187,7 @@ h6 {
 .products-details {
     background-color: #71EFA3;
     margin: 0;
-    padding: 1em 1em;
+    padding: 0.5em 1em;
 }
 
 .products-details-title {
@@ -226,10 +230,6 @@ h6 {
     padding: 1em;
     background-color: #71EFA3;
 }
-
-/* .contact-form-and-address {
-    padding: 0 0 2em 0;
-} */
 
 .contact-form {
     padding: 0 4em;
@@ -294,5 +294,4 @@ h6 {
     .contact-address {
         text-align: center;
     }
-
 } 
